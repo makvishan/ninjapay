@@ -1,0 +1,323 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+.header-inner {
+    background-image: linear-gradient(50deg, rgb(20 74 121) 0.51%, rgb(1 27 35) 70.03%);
+}
+header {
+    position: absolute;
+    z-index: 92;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+.nav-gap{
+ gap: 3rem;
+}
+/* General header and navbar styling */
+.header-inner {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.text-white{
+    color: #fff;
+}
+
+
+.list-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0d0e16;
+    margin-bottom: 2px;
+  }
+  
+  .list-paragraph{
+      font-size: 12px;
+      font-weight: 500;
+      color: #9ca3af;
+      margin-bottom: 0;
+  }
+  
+  
+  
+  
+  .banking{
+      font-size: 16px;
+      font-weight: 600;
+      color: #7986b7;
+      text-transform: uppercase;
+      margin-block-end: .2em;
+      padding: 4px 8px 2px;
+  }
+  
+  
+  .ul{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      width: 110px;
+      transition: background-color .3s 
+  }
+  
+  
+  .logo {
+      width: 150%;
+      height: 60px;
+  }
+  
+
+.navbar-brand img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Styling for dropdown */
+.nav-item.dropdown .dropdown-menu {
+    padding: 15px;
+}
+
+.nav-item.dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.dropdown .dropdown-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+/* Responsive styling */
+
+
+    /* Apply pointer cursor to the popover */
+    .popover.custom-popover,
+    .popover.custom-popover .popover-body {
+        cursor: pointer;
+    }
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+.nav-gap{
+    gap: 0rem;
+}
+   
+}
+
+
+
+.footer-img {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.footer-section {
+    background-color: black;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-title {
+    background: linear-gradient(50deg, var(--text-white), var(--text-lightBlue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.footer-pvt {
+    color: #ffffff9d;
+}
+
+.footer-para {
+    color: #ffffff9d;
+    font-size: 14px;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #ffffff9d;
+    margin-top: 0.5rem;
+}
+
+.section-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-links-column {
+    color: #fff;
+}
+
+.footer-link {
+    color: #ffffff9d;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.newsletter-section {
+    color: #fff;
+}
+
+.newsletter-input {
+    height: 35px;
+    width: 100%;
+}
+
+.newsletter-btn {
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    background-color: green;
+    height: 35px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.newsletter-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Footer Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    .footer-description {
+        font-size: 0.9rem;
+    }
+
+    .section-header {
+        font-size: 1.3rem;
+    }
+
+    .newsletter-input {
+        width: 70%;
+    }
+
+    .newsletter-btn {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .newsletter-input {
+        height: 50px;
+        width: 100%;
+    }
+
+    .newsletter-btn {
+        color: green;
+        background-color: green;
+        height: 50px;
+        width: 100%;
+    }
+}
+
+
+/* Apply custom width to popover */
+.custom-popover {
+    width: 400px !important;  /* Adjust width to your requirement */
+    max-width: 100% !important; /* Ensure it doesn't exceed the screen size */
+}
+
+/* Optional: Styling for the popover body to make it scrollable if necessary */
+.custom-popover .popover-body {
+    padding: 10px;
+    max-height: 400px;  /* Set max height */
+    overflow-y: auto;  /* Allow scrolling if content exceeds height */
+}
+
+
+/* For larger screens, you can set a fixed width for the popover */
+@media (min-width: 768px) {
+    #productsLink[data-bs-content] {
+        max-width: 250px;
+    }
+}
+
+/* For smaller screens, adjust the width and position */
+@media (max-width: 767px) {
+    
+    /* Ensure popover is well positioned */
+    .popover {
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Ninja</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <!-- Navigation  -->
+    <div id="header-container"></div>
+
+    <!-- Main Carousel Section-1 -->
+    <section>
+        <div id="myCarousel" class="carousel slide home_slider mt-5 w-100" data-bs-ride="carousel">
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/7000/svg">
+                    <path d="M11 5L5 12L11 19M6 12H19" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/7000/svg">
+                    <path d="M13 5L19 12L13 19M18 12H5" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Carousel Inner Content -->
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7 col-lg-7 col-xl-6">
+                                <h2 class="hero-title">Pride of Gujarat Award</h2>
+                                <div class="me-xl-5 pe-xl-5 pt-md-4 pb-md-4">
+                                    <p class="hero-discription">
+                                        Pay Ninja's Founder and CEO Yashpal Bakaliya received this prestigious award
+                                        alongside Gujarat Chief Minister Bhupendrabhai Patel.
+                                    </p>
+                                </div>
+                                <a href="#" class="hero-btn me-2 " target="_blank">Join Agent</a>
+                                <a href="#" class="hero-btn">
+                                    Get The App <i class="ms-2 bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-5 col-lg-5 col-xl-5 ms-auto">
+                                <figure class="m-0 me-md-5 mt-5 mt-md-0 text-center">
+                                    <img src="./assets/images/main_slider.jpg" class="img-fluid" alt="Slide 1 Image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7 col-lg-7 col-xl-6">
+                                <h2 class="hero-title">Empowering Financial Freedom</h2>
+                                <p class="hero-discription">
+                                    Join Pay Ninja in our mission to bring digital financial solutions to every
+                                    doorstep in India.
+                                </p>
+                                <a href="#" class="hero-btn me-2 " target="_blank">Join Agent</a>
+                                <a href="#" class="hero-btn">
+                                    Get The App <i class="ms-2 bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-5 col-lg-5 col-xl-5 justify-content-center">
+                                <img src="./assets/images/home_carousel.png" alt="Slide 2 Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third Slide -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-7 col-lg-7 col-xl-6">
+                                <h2 class="hero-title">Become a Pay Ninja Partner</h2>
+                                <p class="hero-discription">
+                                    Discover the benefits of joining the Pay Ninja network and empowering local
+                                    communities.
+                                </p>
+                                <a href="#" class="hero-btn me-2 " target="_blank">Join Agent</a>
+                                <a href="#" class="hero-btn">
+                                    Get The App <i class="ms-2 bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-5 col-lg-5 col-xl-5 justify-content-center">
+                                <img src="./assets/images/home_carousel.png" alt="Slide 2 Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2  -->
+    <section>
+        <div class="py-5 SkyBlue_bg blueIcon_wrp green_line">
+            <div class="container ">
+                <div class="row gap-2">
+                    <div class="col-12 col-md-2 mt-5 ">
+                        <a href="#" class="text-decoration-none">
+                            <div class="qr-card text-center">
+                                <img src="./assets/images/QR_code_for_mobile_English_Wikipedia.svg.png" alt="QR Code">
+                                <p>QR</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-2 mt-5  ">
+                        <a href="#" class="text-decoration-none">
+                            <div class="qr-card text-center">
+                                <img src="./assets/images/remote_payment.png" alt="Remote Payment">
+                                <p>Remote Payments</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="inner_content payments-card p-5 mt-4">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-6 col-xl-7">
+                            <h2>Streamlined Payments with Bharat QR 4.0</h2>
+                            <p class="hero-discription">Ongo has standardized QR codes and online payments through
+                                Bharat QR 4.0, enabling
+                                merchants to accept payments using a single QR code. This seamless process eliminates
+                                the need to input bank details like account number and IFSC code, simply using a QR code
+                                for quick transactions.</p>
+                            <p class="hero-discription">Merchants can generate a dynamic QR code on the PoS screen,
+                                allowing customers to scan
+                                and pay instantly using their mobile-based QR app.</p>
+                            <a href="#" class="btn btn-primary hero-btn">Partner with us</a>
+                        </div>
+                        <div class="mb-4 mb-lg-0 order-lg-12 col-lg-6 col-xl-5 card p-5">
+                            <div class="qr-payment-card  text-center ">
+                                <div class="card-header">
+                                    <img src="./assets/images/logo.png" alt="Ongo Logo" class="logo-img"
+                                        style="width: 25%;">
+                                </div>
+                                <div class="card-body">
+                                    <img src="./assets/images/qr_code (1).jpg" alt="QR Code" class="qr-img"
+                                        style="width: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 ">
+                    <h1 class="safe-title">
+                        SAFE. SECURE. SEAMLESS. Payment Processing Platform for Your Business Needs
+                    </h1>
+                    <p class="safe-discription">We are INDIA’S FIRST AI POWERED HYBRID TRANSACTION PROCESSING ENGINE!
+                        and a Neo-banking Platform
+                        that enables businesses in India to collect Safe. Secure. Seamless. online payments and enable
+                        payout solutions with our Hybrid Transaction Processing Engine.
+                    </p>
+                    <button class="hero-btn">
+                        Book a Demo
+                    </button>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <img src="./assets/images/payninja_phone.png" alt="" class="safe-image">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-7 ">
+                    <div class="service_img">
+                        <img src="./assets/images/payninja-service-img.jpg" alt="Cipher UPI Collect"
+                            class="img-fluid rounded">
+                    </div>
+                    <div class="d-flex mt-5">
+                        <div>
+                            <div class="slide-img">
+                                <img src="./assets/images/visa.png" alt="VISA" style="width: 70%;">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide-img">
+                                <img src="./assets/images/mastercard.png" alt="Mastercard" style="width: 70%;">
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="slide-img">
+                                <img src="./assets/images/paytm.png" alt="Paytm" style="width: 70%;">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide-img">
+                                <img src="./assets/images/phone_pay.png" alt="Phone pay" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 ">
+                    <div class="service_text">
+                        <div>
+                            <h2 class="hero-title">Pay Ninja UPI Collect</h2>
+                            <p>Empower Your Business with seamless UPI Payments. </p>
+                        </div>
+                        <p>UPI opens up new opportunities for MSMEs, startups, corporates, NBFCs, and MFIs to accept
+                            payments from various sources directly into their bank accounts by creating a Virtual
+                            Private Address (VPA).</p>
+
+                        <p><strong>Ease of Use:</strong> UPI payments are highly regarded for their simplicity. By
+                            setting up a VPA, businesses provide an easy and efficient way for customers to transfer
+                            funds directly into their corporate accounts.</p>
+
+                        <p><strong>Flexibility:</strong> Accepting UPI payments allows businesses to receive money from
+                            multiple sources, such as individuals and other businesses, thus enhancing the range of
+                            payment options available.</p>
+
+                        <p><strong>Security:</strong> UPI transactions are backed by strong security measures, ensuring
+                            that both the payer and the payee can complete the payment process with confidence and
+                            safety.</p>
+
+                        <p><strong>Lower Transaction Fees:</strong> UPI payments generally have lower fees compared to
+                            traditional payment methods, depending on the pricing structure, offering potential cost
+                            savings for businesses.</p>
+
+                        <p><strong>Faster Settlements:</strong> UPI transactions are known for their quick settlement
+                            times, allowing businesses to access their funds more quickly than with many other payment
+                            methods.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section>
+        <div class="container text-center mt-5 mb-5 pb-5">
+            <h2>
+                Certified and Recognized by Govt. of India and leading digital platforms
+            </h2>
+            <hr class="block__hr">
+            <div class="certified ">
+                <img src="https://cipherpay.in/assets/images/gem2.png" alt="" class="certified-img">
+                <img src="https://cipherpay.in/assets/images/startupindia.png" alt="" class="certified-img">
+                <img src="https://cipherpay.in/assets/images/msme.png" alt="" class="certified-img">
+                <img src="https://cipherpay.in/assets/images/pci.png" alt="" class="certified-img">
+                <img src="https://cipherpay.in/assets/images/iso.png" alt="" class="certified-img">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section>
+        <div class="container mt-5 mb-5 pb-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-12 landing-page-hero-div" id="change-on-small-screen">
+                    <div class="landing-page-hero-heading-div text-center text-lg-start" style="display: flex;">
+                        <h2 class="landing-page-hero-heading hero-section-title mb-0">Easy</h2>
+                        <h2 id="changeText" class="hero-section-title blue mb-0">
+                            <span class="easy-subtitle">Payouts &amp; Bulk Payouts</span>
+                        </h2>
+                    </div>
+                    <p class="section-supporting-text text-center text-lg-start">
+                        Power up your business with Invoicing - create &amp; share Invoice on Whatsapp, get paid on
+                        time, manage Inventory, make Vendor Payments, and do Integrated Accounting.
+                    </p>
+                    <div class="align-on-small-screen text-center text-lg-start">
+                        <div class="landing-page-hero-btn">
+                            <a href="#" class="hero-btn">Sign Up Free</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="https://enalo.in/components/assets/img/index/Landing%20Page%20Illustration.svg" alt=""
+                        class="img-invoter" style="width: 100%;">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 7 -->
+    <section>
+        <div class="container mt-5">
+            <h2 class="section-title text-center">Safe and Secure</h2>
+            <hr class="block__hr">
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="small-image-card text-center">
+                        <img src="https://enalo.in/components/assets/img/enalo/pci-dss.svg"
+                            alt="PCI DSS 3.2.1 Certified" class="security-img">
+                    </div>
+                    <p class="security-text">PCI DSS Level 3 Certified</p>
+                </div>
+
+                <!-- 256-bit Encryption -->
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="small-image-card text-center">
+                        <img src="https://enalo.in/components/assets/img/enalo/shield.png"
+                            alt="Bank grade security with 256-bit encryption" class="security-img">
+                    </div>
+                    <p class="security-text">Bank grade security with 256-bit encryption</p>
+                </div>
+
+                <!-- ISO Certification -->
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="small-image-card text-center">
+                        <img src="https://enalo.in/components/assets/img/enalo/ISO_27001_logo.png"
+                            alt="ISO 27001 Certified" class="security-img">
+                    </div>
+                    <p class="security-text">ISO 27001 Certified</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section 8 -->
+    <section>
+        <div class="container mt-5 mb-5">
+            <h1 class="text-center">
+                Types of <span class="text-danger">QR</span>
+            </h1>
+            <div class="row mt-5">
+                <div class="col-12 col-md-4">
+                    <div class="type-qr-card text-center ">
+                        <img src="./assets/images/upi-section2-1.png" alt="" class="type-qr-image">
+                        <h2 class="type-qr-title">Static QR Code</h2>
+                        <p>A static QR code can accept payments of the amount as displayed by NPCI and is open to the
+                            customer to enter the payment amount.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="type-qr-card text-center ">
+                        <img src="./assets/images/upi-section2-1.png" alt="" class="type-qr-image">
+                        <h2 class="type-qr-title">Dynamic QR Code</h2>
+                        <p>Dynamic QR code is meant for one-time use and has a fixed amount assigned to it, allowing the
+                            customer to pay only the specified amount linked to the QR code.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="type-qr-card text-center ">
+                        <img src="./assets/images/upi-section2-1.png" alt="" class="type-qr-image">
+                        <h2 class="type-qr-title">UPI Intent</h2>
+                        <p>In the intent flow (meant for mobile apps), when the customer selects the UPI payment app
+                            during checkout, the app is automatically launched on their mobile device.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <div id="footer-container"></div>
+
+<!-- Load Popper and Bootstrap (only once, from CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const productsLink = document.getElementById('productsLink');
+    
+    // Initialize the popover with custom options
+    const popover = new bootstrap.Popover(productsLink, {
+        trigger: 'manual',  // Manually control show/hide
+        html: true,
+        content: `
+            <div class="popover-content">
+                <div class="d-flex align-items-center mt-2">
+                    <img src="./assets/single_payouts.png" alt="" width="30px">
+                    <h6 class="ms-2">Ninja Payout</h6>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                    <img src="./assets/single_payouts.png" alt="" width="30px">
+                    <h6 class="ms-2">Ninja UPI Collect</h6>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                    <img src="./assets/single_payouts.png" alt="" width="30px">
+                    <h6 class="ms-2">Indo Nepal Money Transfer API</h6>
+                </div>
+                <div class="d-flex align-items-center mt-2">
+                    <img src="./assets/single_payouts.png" alt="" width="30px">
+                    <h6 class="ms-2">Gold Investment API</h6>
+                </div>
+            </div>
+        `,
+        placement: 'bottom',  // Display popover below the link
+        customClass: 'custom-popover'  // Custom class for styling
+    });
+
+    let isInsidePopover = false;
+
+    // Show the popover when hovering over the link
+    productsLink.addEventListener('mouseenter', () => {
+        popover.show();
+    });
+
+    // Manage mouse events to show and hide the popover smoothly
+    productsLink.addEventListener('shown.bs.popover', () => {
+        const popoverElement = document.querySelector('.popover.custom-popover');
+        if (popoverElement) {
+            popoverElement.addEventListener('mouseenter', () => {
+                isInsidePopover = true;
+            });
+            popoverElement.addEventListener('mouseleave', () => {
+                isInsidePopover = false;
+                setTimeout(() => {
+                    if (!isInsidePopover) {
+                        popover.hide();
+                    }
+                }, 100);  // Slight delay to improve hover UX
+            });
+        }
+    });
+
+    // Hide the popover when the mouse leaves the link and popover area
+    productsLink.addEventListener('mouseleave', () => {
+        setTimeout(() => {
+            if (!isInsidePopover) {
+                popover.hide();
+            }
+        }, 100);  // Slight delay for smooth hover experience
+    });
+});
+</script>
+
+
+    <!-- coursel  -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Header & Footer Dynamic  -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
