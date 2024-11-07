@@ -23,19 +23,19 @@ function loadHTML(file, containerId, callback) {
           <div class="popover-content">
             <div class="d-flex align-items-center mt-2">
               <img src="./assets/single_payouts.png" alt="" width="30px">
-              <h6 class="ms-2">Ninja Payout</h6>
+              <a href=""><h6 class="ms-2">Ninja Payout</h6></a>
             </div>
             <div class="d-flex align-items-center mt-2">
               <img src="./assets/single_payouts.png" alt="" width="30px">
-              <h6 class="ms-2">Ninja UPI Collect</h6>
+               <a href=""><h6 class="ms-2">Ninja UPI Collect</h6></a>
             </div>
             <div class="d-flex align-items-center mt-2">
               <img src="./assets/single_payouts.png" alt="" width="30px">
-              <h6 class="ms-2">Indo Nepal Money Transfer API</h6>
+              <a href=""> <h6 class="ms-2">Indo Nepal Money Transfer API</h6></a>
             </div>
             <div class="d-flex align-items-center mt-2">
               <img src="./assets/single_payouts.png" alt="" width="30px">
-              <h6 class="ms-2">Gold Investment API</h6>
+              <a href=""> <h6 class="ms-2">Gold Investment API</h6></a>
             </div>
           </div>
         `,
