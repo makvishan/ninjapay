@@ -1,13 +1,21 @@
 .about-image-overlay {
-    top: 20px;
+    top: 0;
+    position: absolute;
+    width: 100%;
 }
 
-/* li::before {
-    content: "•";
-    color: #fff; 
+/* Members  */
+.absoulite-font-bold {
+    font-size: 24px;
+    font-weight: 600;
+}
 
-   
-} */
+.absoulite-font-small {
+    font-size: 14px;
+    color: gray;
+}
+
+
 
 
 
@@ -37,18 +45,9 @@
     transform: translateX(-50%);
 }
 
-.absoulite-font-bold {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.absoulite-font-small {
-    font-size: 14px;
-    color: gray;
-}
 
 
-.easy-small{
+.easy-small {
     font-size: 15px;
     color: black;
 }
@@ -62,37 +61,18 @@
     margin: 0;
     color: lightgrey;
 }
-.refud-txt{
+
+.refud-txt {
     font-size: 62px;
     font-weight: 700;
-    color: #012970;;
-}
-
-.font-small-bold {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.5em;
-    margin: 0;
     color: #012970;
-}
-
-.font-small-bold-1 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5em;
-    margin: 0;
-    color: #012970;
+    ;
 }
 
 
 
-.small-font {
 
-    color: #000000;
-    font-size: 18px;
-    line-height: 2rem;
-    margin-top: 50px;
-}
+
 
 .font-small {
     color: grey;
@@ -104,7 +84,7 @@
 
 .small-bold {
     font-size: 20px;
-    color: #fff;
+    color: var(--heading-color);
 }
 
 .font-bold {
@@ -291,9 +271,12 @@
     text-align: center;
     height: 250px;
     background-color: #f8f9fa;
-    border: 0.5rem solid #FDA802;
+    border: 0.5rem solid var(--accent-color);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
+
 
 
 .contact {
@@ -316,20 +299,19 @@
     flex-direction: column;
     padding: 15px;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: lightgray;
+  
 }
 
 .contact .info-item i {
     font-size: 24px;
-    color: #3faffa;
+    color: #4154F1;
     margin-bottom: 10px;
 }
 
 .contact .info-item h3 {
     font-size: 18px;
     font-weight: bold;
-    color: #333;
+
 }
 
 .contact .info-item p {
@@ -341,36 +323,101 @@
     margin-bottom: 20px;
 }
 
-.contact form .form-control {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 12px;
-    font-size: 16px;
+
+
+
+
+/* Form Container */
+.custom-form {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .form-group label {
+    font-size: 14px;
+    color:grey;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  .form-input {
     width: 100%;
-}
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    
+    outline: none;
+    transition: border-color 0.3s;
 
-.contact form button {
-    background-color: #3faffa;
-    color: #fff;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
+  }
+  
+  .form-input:focus {
+    border-color: #012970;
+  }
+  
+  /* Submit Button */
+  .form-submit .form-button {
+    padding: 10px 20px;
     font-size: 16px;
+    color: #fff;
+    background-color:  #4154F1;
+    border: none;
+   
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    height: 40px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .form-submit .form-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Success and Error Messages */
+  .form-message {
+    display: none;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+
+  .textarea-container {
+    width: 100%;
+ 
+  
+    display: flex;
+    flex-direction: column;
 }
 
-.contact form button:hover {
-    background-color: #2f8cd4;
+
+
+#custom-textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+   font-size: 14px;
+    border: 1px solid #ccc;
+
+    resize: vertical; /* Allows the user to resize vertically */
+    background-color: #fff;
+   
 }
 
-.contact .sent-message {
-    color: green;
-    font-weight: bold;
-}
-
-.contact .loading {
-    color: #3faffa;
-    font-weight: bold;
+#custom-textarea:focus {
+    border-color: #012970; /* Blue border on focus */
+    outline: none;
+   
 }
