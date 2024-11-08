@@ -678,7 +678,7 @@ h6 {
     padding: 40px 30px;
     border-radius: 20px;
     position: relative;
-    height: 300px;
+    height: 350px;
     display: block;
 }
 
@@ -887,7 +887,7 @@ h6 {
     border-radius: 10px;
 }
 
-.faq-card{
+.faq-card {
     width: 100%;
     border: 1px solid #D1D1D1;
     padding: 10px;
@@ -1363,10 +1363,6 @@ a {
     color: black !important;
 }
 
-.contact-section {
-    text-align: center;
-    padding: 20px;
-}
 
 .contact-section h2 {
     font-size: 24px;
@@ -1411,7 +1407,6 @@ section {
 }
 
 .card {
-    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1442,7 +1437,6 @@ section {
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 4px;
     margin-bottom: 15px;
 }
 
@@ -1599,10 +1593,7 @@ section {
 }
 
 @media (max-width: 576px) {
-    .subtitle.layout {
-        justify-content: center;
-        /* Center subtitle on very small screens */
-    }
+  
 
     h2 {
         font-size: 1.5em;
@@ -1643,11 +1634,12 @@ section {
     text-align: center;
 }
 
-.signup-card{
+.signup-card {
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
