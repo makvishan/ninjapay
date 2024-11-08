@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="./asets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./about.css">
     <style>
         .about-image-overlay {
@@ -43,20 +43,20 @@
         <!-- Section Title -->
         <div class="container section-title aos-init aos-animate" data-aos="fade-up">
             <h2>Contact</h2>
-            <p>Contact Us</p>
+
         </div><!-- End Section Title -->
 
         <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
             <div class="row gy-4">
 
-                <div class="col-lg-6">
+                <div class="col-lg-12">
 
                     <div class="row gy-4 ">
                         <div class="col-md-6 contact-us">
-                            <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="200">
+                            <div class="info-item bg-light aos-init aos-animate" data-aos="fade" data-aos-delay="200">
                                 <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
+                                <h3 class="font-small-bold">Address</h3>
                                 <p> Rocket Pay Private Limited
                                 </p>
                                 <p>Address - T-16 Devsha Buisness Park Noida Sec 63 UP 201301.</p>
@@ -65,10 +65,12 @@
 
 
                         <div class="col-md-6 ">
-                            <div class="info-item aos-init aos-animate" data-aos="fade" data-aos-delay="400">
+                            <div class="info-item bg-light aos-init aos-animate" data-aos="fade" data-aos-delay="200">
                                 <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
-                                <p>Email: info@payninja.in</p>
+
+                                <h3 class="font-small-bold ">Email Us</h3>
+                                <p style="margin-top: 35px;">Email: info@payninja.in</p>
+
                             </div>
                         </div><!-- End Info Item -->
 
@@ -77,34 +79,70 @@
 
                 </div>
 
-                <div class="col-lg-6" style="background-color: lightgrey; border-radius: 8px;">
-                    <form style="margin-top: 10px;" action="forms/contact.php" method="post"
-                        class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-12  ">
+                    <form class="p-3 bg-light " style="margin-top: 10px; border: 1px solid #ddd; " method="post"
+                        class="" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
 
                             <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Your Name" required=""
-                                    fdprocessedid="qgi94w">
+                                <label class="form-label">Name<span class="mandatory-indicator">*</span></label>
+                                <input type="text" placeholder="Enter your name here" id="name" name="name"
+                                    class="form-input" required>
                             </div>
 
                             <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                    required="" fdprocessedid="bftrrq">
+                                <label class="form-label">Designation<span class="mandatory-indicator">*</span></label>
+                                <input type="text" placeholder="Enter Designation here" id="designation" name="name"
+                                    class="form-input" required>
+
                             </div>
 
-                            <div class="col-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required=""
-                                    fdprocessedid="wf4zz">
+                            <div class="col-md-6">
+                                <label class="form-label">Company Name
+                                    <span class="mandatory-indicator">*</span></label>
+                                <input type="email" placeholder="Enter your company name here" id="company name"
+                                    name="email" class="form-input" required>
                             </div>
 
-                            <div class="col-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                    required=""></textarea>
+                            <div class="col-md-6 ">
+                                <label class="form-label">Mobile Number<span
+                                        class="mandatory-indicator">*</span></label>
+                                <input type="text" placeholder="Enter your Mobile Number here " id="name" name="name"
+                                    class="form-input" required>
+
                             </div>
 
-                            <div class="col-12 text-center">
-                                <div class="p-3">
-                                    <button type="hero-btn ">Send Message</button>
+                            <div class="col-md-6">
+                                <label class="form-label">Email Id <span class="mandatory-indicator">*</span></label>
+                                <input type="email" placeholder="Enter your Email Id here" id="email" name="email"
+                                    class="form-input" required>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <label class="form-label">Comment<span class="mandatory-indicator">*</span></label>
+                                <input type="text" placeholder="Enter your Comment here" id="name" name="name"
+                                    class="form-input" required>
+
+                            </div>
+
+                            <div class="col-12 mt-3">
+
+                                <input type="text" placeholder="Subject" id="name" name="name" class="form-input"
+                                    required>
+                            </div>
+
+
+
+                            <div class="textarea-container col-12 mt-3 ">
+
+                                <textarea id="custom-textarea" placeholder="Message"></textarea>
+                            </div>
+
+
+                            <div class="col-12 text-center" style="margin-top: 10px;">
+                                <div class="form-group form-submit">
+                                    <button type="submit" class="form-button"
+                                        style="text-align: center;">Submit</button>
                                 </div>
                             </div>
 
