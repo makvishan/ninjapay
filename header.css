@@ -240,6 +240,9 @@ section {
     .newsletter-btn {
         border-radius: 0px 10px 10px 0px;
     }
+    .card-title {
+        font-size: 15px;
+    }
 
 }
 
@@ -330,7 +333,6 @@ section {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 1rem;
-    /* text-align: center; */
     color: #012970;
 }
 

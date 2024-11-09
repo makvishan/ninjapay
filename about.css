@@ -299,7 +299,14 @@
     flex-direction: column;
     padding: 15px;
     border: 1px solid #ddd;
+    height: 160px;
   
+}
+
+@media (max-width:768px) {
+    .contact .info-item {
+      height: auto;
+    }
 }
 
 .contact .info-item i {

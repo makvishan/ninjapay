@@ -20,10 +20,31 @@
     background-size: cover;
 }
 
+.safe-bg {
+    height: auto;
+    background-image: linear-gradient(135deg, rgba(230, 230, 250, 0.7), rgba(173, 216, 230, 0.7));
+    background-size: cover;
+}
+
+.easy-bg {
+    height: auto;
+    background-image: linear-gradient(135deg, rgba(230, 230, 250, 0.7), rgba(173, 216, 230, 0.7));
+    background-size: cover;
+}
+
 @media (max-width:620px) {
     .main-bg {
         text-align: center;
     }
+
+    .easy-bg {
+        text-align: start;
+    }
+
+    .hero-discription {
+        text-align: start;
+    }
+
 }
 
 .hero h1,
@@ -85,17 +106,24 @@ h6 {
     font-weight: 600;
 }
 
+@media (max-width:620px) {
+    .card-title {
+        text-align: start;
+        margin-top: 15px;
+    }
+    .hero-title {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+}
+
 .card-sub-title {
     color: var(--heading-color);
     font: 14px;
 }
 
-@media (max-width:620px) {
-    .hero-title {
-        font-size: 38px;
-        font-weight: 800;
-    }
-}
+
 
 .hero-btn {
     display: inline-block;
@@ -120,8 +148,8 @@ h6 {
 
 @media (max-width:620px) {
     .hero-btn {
-        margin-left: auto;
-        margin-right: auto;
+        width: 100px;
+        margin-top: 10px;
         display: inline-block;
         padding: 8px 14px;
         font-size: 8px;
@@ -201,6 +229,12 @@ h6 {
 .safe-image {
     border-radius: 30px;
     width: 100%;
+}
+
+@media (max-width:620px) {
+    .safe-image {
+        margin-top: 25px;
+    }
 }
 
 /* section 4  */
@@ -293,6 +327,11 @@ h6 {
 }
 
 /* section 7 */
+
+.safe-secure-imge {
+    text-align: center;
+}
+
 .block__hr {
     border-radius: 10px;
     width: 10%;
@@ -421,6 +460,7 @@ h6 {
         font-size: 1rem;
         padding: 0.5rem 1.5rem;
     }
+   
 }
 
 /* section 2 */
@@ -681,6 +721,11 @@ h6 {
     height: 350px;
     display: block;
 }
+@media (max-width:768px) {
+    .advant-box {
+        height: auto;
+    }
+}
 
 .advant-box .advant-content h3 {
     color: #F91D2F;
@@ -757,7 +802,7 @@ h6 {
     left: -72px;
 }
 
-@media (max-width:750px) {
+@media (max-width:768px) {
     .faq-section-wrapper::after {
         content: none;
     }
@@ -765,6 +810,8 @@ h6 {
     .faq-section-wrapper::before {
         content: none;
     }
+
+    
 }
 
 .benefit-wrapper .parent .sibling .cms-box:after {
@@ -1401,10 +1448,10 @@ section {
 }
 
 /* Container and Card */
-.col-lg-6 {
+/* .col-lg-6 {
     max-width: 600px;
     margin: 0 auto;
-}
+} */
 
 .card {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -1523,10 +1570,8 @@ section {
 
     img {
         max-width: 80%;
-        /* Make image responsive */
         height: auto;
-        /* Maintain aspect ratio */
-        margin-top: 0px;
+        margin-top: 15px;
     }
 
     .easy {
@@ -1593,7 +1638,7 @@ section {
 }
 
 @media (max-width: 576px) {
-  
+
 
     h2 {
         font-size: 1.5em;
@@ -1656,4 +1701,10 @@ section {
     font-weight: bold;
     color: #333;
     margin-top: 15px;
+}
+
+@media (max-width:768px) {
+    .easy-cash {
+        text-align: center;
+    }
 }
