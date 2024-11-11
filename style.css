@@ -111,6 +111,7 @@ h6 {
         text-align: start;
         margin-top: 15px;
     }
+
     .hero-title {
         font-size: 28px;
         font-weight: 800;
@@ -391,12 +392,28 @@ h6 {
     }
 }
 
+/* section 9 */
+.cashflow-video {
+    width: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--heading-color);
+}
 
+/* section 10 */
+
+.business {
+    width: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+
+
+
+/* investment page  */
 /* section 1  */
-
-
-
-
 .investment-callout {
     padding-left: 1rem;
     position: relative;
@@ -460,7 +477,7 @@ h6 {
         font-size: 1rem;
         padding: 0.5rem 1.5rem;
     }
-   
+
 }
 
 /* section 2 */
@@ -721,6 +738,7 @@ h6 {
     height: 350px;
     display: block;
 }
+
 @media (max-width:768px) {
     .advant-box {
         height: auto;
@@ -811,7 +829,7 @@ h6 {
         content: none;
     }
 
-    
+
 }
 
 .benefit-wrapper .parent .sibling .cms-box:after {
@@ -1707,4 +1725,107 @@ section {
     .easy-cash {
         text-align: center;
     }
+}
+
+
+/* Footer  */
+.getstarted-title {
+    font-weight: 900;
+    color: black;
+}
+
+.list-icon {
+    color: #67a8c2;
+    margin-right: 10px;
+}
+
+.list-trust {
+    padding: 2px;
+    color: #0CC031;
+    margin-right: 10px;
+}
+
+/* .trust-content {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+.trust-content {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: url(https://cdn.ywxi.net/meter/cipherpay.in/205.svg?ts=1728259262624&l=en) center center / 92px 38px no-repeat rgb(255, 255, 255);
+    width: 10px;
+    position: fixed;
+    height: 38px !important;
+    width: 92px !important;
+    overflow: hidden !important;
+    bottom: -13px;
+    right: 0px !important;
+    z-index: 1000003 !important;
+    cursor: pointer !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+    border-top-left-radius: 2px;
+    transition: 0.2s;
+}
+
+.get-started {
+    height: 230px;
+    border: 1px solid var(--heading-color);
+    background-color: white;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .get-started {
+        height: auto;
+    }
+}
+
+.perfect-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.perfect-content {
+    font-weight: 800;
+    color: black;
+}
+
+.connect-payment {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    flex-wrap: wrap;
+}
+
+.connect-payment>div {
+    margin: 10px 20px;
+    /* Ensures spacing between items */
+}
+
+.btn-primary-sign {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #8a2be2;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }

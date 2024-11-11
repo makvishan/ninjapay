@@ -151,6 +151,25 @@ section {
     gap: 20px;
 }
 
+@media (max-width:768px) {
+    .footer-links {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:568px) {
+    .footer-links {
+        padding-top: 130px;
+    }
+}
+
+@media (max-width:320px) {
+    .footer-links {
+        padding-top: 180px;
+    }
+}
+
+
 .footer-title {
     background: linear-gradient(50deg, var(--text-white), var(--text-lightBlue));
     -webkit-background-clip: text;
@@ -240,6 +259,7 @@ section {
     .newsletter-btn {
         border-radius: 0px 10px 10px 0px;
     }
+
     .card-title {
         font-size: 15px;
     }
@@ -264,12 +284,13 @@ section {
     }
 }
 
-.nav-link-js:hover{
+.nav-link-js:hover {
     background-color: lightgray;
     padding: 10px;
     /* padding: 5px; */
 }
-.nav-link-js{
+
+.nav-link-js {
     padding: 10px;
     /* padding: 5px; */
 }
