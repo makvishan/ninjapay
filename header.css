@@ -151,23 +151,18 @@ section {
     gap: 20px;
 }
 
-@media (max-width:768px) {
+
+@media (max-width:568px) {
     .footer-links {
         padding-top: 50px;
     }
 }
 
-@media (max-width:568px) {
+/* @media (max-width:320px) {
     .footer-links {
-        padding-top: 130px;
+        padding-top: 50px;
     }
-}
-
-@media (max-width:320px) {
-    .footer-links {
-        padding-top: 180px;
-    }
-}
+} */
 
 
 .footer-title {

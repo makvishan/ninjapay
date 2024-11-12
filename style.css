@@ -739,11 +739,6 @@ h6 {
     display: block;
 }
 
-@media (max-width:768px) {
-    .advant-box {
-        height: auto;
-    }
-}
 
 .advant-box .advant-content h3 {
     color: #F91D2F;
@@ -1074,7 +1069,13 @@ h6 {
     background-image: url('https://www.paysprint.in/assets/img/contact-us/contact-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 200px;
 }
+
+.contact-section h2 {
+    font-size: 28px;
+}
+
 
 .api-contact-heading {
 
@@ -1154,7 +1155,6 @@ section.block .subtitle {
     line-height: 1.1;
     margin-right: 10px;
     margin-top: 30px;
-
 }
 
 
@@ -1429,17 +1429,7 @@ a {
 }
 
 
-.contact-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
 
-
-.contact-section p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
 
 
 
@@ -1681,6 +1671,8 @@ section {
 } */
 
 .section-title {
+    margin-bottom: 10px;
+    text-align: center;
     font-size: 2rem;
     color: #0056b3;
 }
@@ -1729,10 +1721,72 @@ section {
 
 
 /* Footer  */
+.footer-top {
+    padding-top: 200px;
+}
+
+
+.befor-footer-industries {
+    padding-bottom: 150px;
+}
+
+
+.befor-footer-Indo-Nepal {
+    padding-bottom: 200px;
+    width: 100%;
+    background-color: #fffcf6;
+}
+
+.get-started {
+    height: 230px;
+    border: 1px solid var(--heading-color);
+    background-color: white;
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.connect-payment {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    flex-wrap: wrap;
+}
+
+.connect-payment>div {
+    margin: 10px 20px;
+}
+
+@media (max-width:768px) {
+    .get-started {
+        text-align: start;
+    }
+
+    .connect-payment {
+        justify-content: flex-start;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .connect-payment>div {
+        margin: 0px 0px;
+        font-size:14px ;
+    }
+}
+
 .getstarted-title {
     font-weight: 900;
     color: black;
 }
+
+
+
 
 .list-icon {
     color: #67a8c2;
@@ -1744,13 +1798,6 @@ section {
     color: #0CC031;
     margin-right: 10px;
 }
-
-/* .trust-content {
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-} */
 
 .trust-content {
     margin: 0px;
@@ -1771,20 +1818,7 @@ section {
     transition: 0.2s;
 }
 
-.get-started {
-    height: 230px;
-    border: 1px solid var(--heading-color);
-    background-color: white;
-    position: absolute;
-    top: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 1100px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
-}
+
 
 @media (max-width:768px) {
     .get-started {
@@ -1802,17 +1836,8 @@ section {
     color: black;
 }
 
-.connect-payment {
-    display: flex;
-    justify-content: center;
-    font-size: 19px;
-    flex-wrap: wrap;
-}
 
-.connect-payment>div {
-    margin: 10px 20px;
-    /* Ensures spacing between items */
-}
+
 
 .btn-primary-sign {
     width: 150px;

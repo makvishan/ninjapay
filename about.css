@@ -275,8 +275,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
-
+ /* Footer  */
 
 
 .contact {
@@ -286,7 +285,6 @@
 
 .contact .section-title {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .contact .section-title h2 {
