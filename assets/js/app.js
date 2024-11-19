@@ -23,11 +23,11 @@ loadHTML("header.html", "header-container", (container) => {
         <div class="popover-content">
           <div class="d-flex align-items-center mt-3">
               <i class="fas fa-wallet"></i>
-              <h6 class="ms-2">Ninja Payout</h6>
+              <h6 class="ms-2"> <a href="./payout.html" class="text-decoration-none">Ninja Payout</a></h6>
           </div>
           <div class="d-flex align-items-center mt-3">
               <i class="fas fa-university"></i>
-              <h6 class="ms-2">Ninja UPI Collect</h6>
+              <h6 class="ms-2"> <a href="./upi-collect.html" class="text-decoration-none">Ninja UPI Collect</a></h6>
           </div>
           <div class="d-flex align-items-center mt-3">
             <i class="fas fa-exchange-alt">   </i>
