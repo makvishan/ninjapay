@@ -21,24 +21,25 @@ loadHTML("header.html", "header-container", (container) => {
       html: true,
       content: `
         <div class="popover-content">
-          <div class="d-flex align-items-center nav-link-js mt-3">
+           <a href="./payout.html" class="text-decoration-none"> <div class="d-flex align-items-center nav-link-js mt-3">
               <i class="fas fa-wallet"></i>
-            <h6 class="ms-2"> <a href="./payout.html" class="text-decoration-none">Ninja Payout</a></h6>
+            <h6 class="ms-2 mt-2">Ninja Payout</h6>
           </div>
-          <div class="d-flex align-items-center nav-link-js  mt-3">
+          </a>
+           <a href="./upi-collect.html" class="text-decoration-none"><div class="d-flex align-items-center nav-link-js  mt-3">
               <i class="fas fa-university"></i>
-                <h6 class="ms-2"> <a href="./upi-collect.html" class="text-decoration-none">Ninja UPI Collect</a></h6>
-          </div>
-          <div class="d-flex align-items-center nav-link-js mt-3">
+                <h6 class="ms-2 mt-2">Ninja UPI Collect</h6>
+          </div></a>
+          <a href="./indo-nepal-prabu-money-transfer-api.html" class="text-decoration-none"> <div class="d-flex align-items-center nav-link-js mt-3">
             <i class="fas fa-exchange-alt">   </i>
-              <h6 class="ms-2  mt-2"> <a href="./indo-nepal-prabu-money-transfer-api.html" class="text-decoration-none">Indo Nepal Money Transfer API</a></h6>
+              <h6 class="ms-2  mt-2">Indo Nepal Money Transfer API</h6>
            
-          </div>
-          <div class="d-flex align-items-center nav-link-js mt-3">
+          </div></a>
+         <a href="./gold-and-silver-inverstment-api.html" class="text-decoration-none"> <div class="d-flex align-items-center nav-link-js mt-3">
           <i class="fas fa-coins" > </i>
-          <h6 class="ms-2  mt-2"><a href="./gold-and-silver-inverstment-api.html" class="text-decoration-none">Gold Investment API</a></h6>
+          <h6 class="ms-2  mt-2">Gold Investment API</h6>
              
-          </div>
+          </div></a>
       </div> `,
 
       placement: "bottom",
